@@ -1,4 +1,4 @@
-package Email;
+package Facebook;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -6,11 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-@DisplayName("Teste paar envio de Email")
+@DisplayName("Teste para fazer login no facebook")
 
-public class EmailTest {
+public class FacebookLoginTest {
     @Test
-    public void testePaRaEnvairEmailAoutotatizado() {
+    public void testeParaEntrarNoFacebook() {
 
         //Abri Navegador
         System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver_win32\\chromedriver.exe");
